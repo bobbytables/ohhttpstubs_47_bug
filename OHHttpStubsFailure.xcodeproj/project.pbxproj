@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E17B0E5418724DB700960AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B0E5318724DB700960AF5 /* Foundation.framework */; };
+		E17B0E5618724DB700960AF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B0E5518724DB700960AF5 /* CoreGraphics.framework */; };
+		E17B0E5818724DB700960AF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B0E5718724DB700960AF5 /* UIKit.framework */; };
+		E17B0E5E18724DB700960AF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E17B0E5C18724DB700960AF5 /* InfoPlist.strings */; };
+		E17B0E6018724DB700960AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17B0E5F18724DB700960AF5 /* main.m */; };
+		E17B0E6418724DB700960AF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17B0E6318724DB700960AF5 /* AppDelegate.m */; };
+		E17B0E6618724DB700960AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17B0E6518724DB700960AF5 /* Images.xcassets */; };
+		E17B0E6D18724DB800960AF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B0E6C18724DB800960AF5 /* XCTest.framework */; };
+		E17B0E6E18724DB800960AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B0E5318724DB700960AF5 /* Foundation.framework */; };
+		E17B0E6F18724DB800960AF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17B0E5718724DB700960AF5 /* UIKit.framework */; };
+		E17B0E7718724DB800960AF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E17B0E7518724DB800960AF5 /* InfoPlist.strings */; };
+		E17B0E7918724DB800960AF5 /* OHHttpStubsFailureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E17B0E7818724DB800960AF5 /* OHHttpStubsFailureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E17B0E7018724DB800960AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17B0E4818724DB700960AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17B0E4F18724DB700960AF5;
+			remoteInfo = OHHttpStubsFailure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E17B0E5018724DB700960AF5 /* OHHttpStubsFailure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OHHttpStubsFailure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17B0E5318724DB700960AF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E17B0E5518724DB700960AF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E17B0E5718724DB700960AF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E17B0E5B18724DB700960AF5 /* OHHttpStubsFailure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OHHttpStubsFailure-Info.plist"; sourceTree = "<group>"; };
+		E17B0E5D18724DB700960AF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E17B0E5F18724DB700960AF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E17B0E6118724DB700960AF5 /* OHHttpStubsFailure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OHHttpStubsFailure-Prefix.pch"; sourceTree = "<group>"; };
+		E17B0E6218724DB700960AF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E17B0E6318724DB700960AF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E17B0E6518724DB700960AF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E17B0E6B18724DB800960AF5 /* OHHttpStubsFailureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OHHttpStubsFailureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17B0E6C18724DB800960AF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E17B0E7418724DB800960AF5 /* OHHttpStubsFailureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OHHttpStubsFailureTests-Info.plist"; sourceTree = "<group>"; };
+		E17B0E7618724DB800960AF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E17B0E7818724DB800960AF5 /* OHHttpStubsFailureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHHttpStubsFailureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17B0E4D18724DB700960AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B0E5618724DB700960AF5 /* CoreGraphics.framework in Frameworks */,
+				E17B0E5818724DB700960AF5 /* UIKit.framework in Frameworks */,
+				E17B0E5418724DB700960AF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17B0E6818724DB800960AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B0E6D18724DB800960AF5 /* XCTest.framework in Frameworks */,
+				E17B0E6F18724DB800960AF5 /* UIKit.framework in Frameworks */,
+				E17B0E6E18724DB800960AF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E17B0E4718724DB700960AF5 = {
+			isa = PBXGroup;
+			children = (
+				E17B0E5918724DB700960AF5 /* OHHttpStubsFailure */,
+				E17B0E7218724DB800960AF5 /* OHHttpStubsFailureTests */,
+				E17B0E5218724DB700960AF5 /* Frameworks */,
+				E17B0E5118724DB700960AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E17B0E5118724DB700960AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17B0E5018724DB700960AF5 /* OHHttpStubsFailure.app */,
+				E17B0E6B18724DB800960AF5 /* OHHttpStubsFailureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17B0E5218724DB700960AF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E17B0E5318724DB700960AF5 /* Foundation.framework */,
+				E17B0E5518724DB700960AF5 /* CoreGraphics.framework */,
+				E17B0E5718724DB700960AF5 /* UIKit.framework */,
+				E17B0E6C18724DB800960AF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17B0E5918724DB700960AF5 /* OHHttpStubsFailure */ = {
+			isa = PBXGroup;
+			children = (
+				E17B0E6218724DB700960AF5 /* AppDelegate.h */,
+				E17B0E6318724DB700960AF5 /* AppDelegate.m */,
+				E17B0E6518724DB700960AF5 /* Images.xcassets */,
+				E17B0E5A18724DB700960AF5 /* Supporting Files */,
+			);
+			path = OHHttpStubsFailure;
+			sourceTree = "<group>";
+		};
+		E17B0E5A18724DB700960AF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E17B0E5B18724DB700960AF5 /* OHHttpStubsFailure-Info.plist */,
+				E17B0E5C18724DB700960AF5 /* InfoPlist.strings */,
+				E17B0E5F18724DB700960AF5 /* main.m */,
+				E17B0E6118724DB700960AF5 /* OHHttpStubsFailure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E17B0E7218724DB800960AF5 /* OHHttpStubsFailureTests */ = {
+			isa = PBXGroup;
+			children = (
+				E17B0E7818724DB800960AF5 /* OHHttpStubsFailureTests.m */,
+				E17B0E7318724DB800960AF5 /* Supporting Files */,
+			);
+			path = OHHttpStubsFailureTests;
+			sourceTree = "<group>";
+		};
+		E17B0E7318724DB800960AF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E17B0E7418724DB800960AF5 /* OHHttpStubsFailureTests-Info.plist */,
+				E17B0E7518724DB800960AF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17B0E4F18724DB700960AF5 /* OHHttpStubsFailure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B0E7C18724DB800960AF5 /* Build configuration list for PBXNativeTarget "OHHttpStubsFailure" */;
+			buildPhases = (
+				E17B0E4C18724DB700960AF5 /* Sources */,
+				E17B0E4D18724DB700960AF5 /* Frameworks */,
+				E17B0E4E18724DB700960AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHHttpStubsFailure;
+			productName = OHHttpStubsFailure;
+			productReference = E17B0E5018724DB700960AF5 /* OHHttpStubsFailure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E17B0E6A18724DB800960AF5 /* OHHttpStubsFailureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B0E7F18724DB800960AF5 /* Build configuration list for PBXNativeTarget "OHHttpStubsFailureTests" */;
+			buildPhases = (
+				E17B0E6718724DB800960AF5 /* Sources */,
+				E17B0E6818724DB800960AF5 /* Frameworks */,
+				E17B0E6918724DB800960AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E17B0E7118724DB800960AF5 /* PBXTargetDependency */,
+			);
+			name = OHHttpStubsFailureTests;
+			productName = OHHttpStubsFailureTests;
+			productReference = E17B0E6B18724DB800960AF5 /* OHHttpStubsFailureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17B0E4818724DB700960AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Creative Queries";
+				TargetAttributes = {
+					E17B0E6A18724DB800960AF5 = {
+						TestTargetID = E17B0E4F18724DB700960AF5;
+					};
+				};
+			};
+			buildConfigurationList = E17B0E4B18724DB700960AF5 /* Build configuration list for PBXProject "OHHttpStubsFailure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E17B0E4718724DB700960AF5;
+			productRefGroup = E17B0E5118724DB700960AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17B0E4F18724DB700960AF5 /* OHHttpStubsFailure */,
+				E17B0E6A18724DB800960AF5 /* OHHttpStubsFailureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17B0E4E18724DB700960AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B0E5E18724DB700960AF5 /* InfoPlist.strings in Resources */,
+				E17B0E6618724DB700960AF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17B0E6918724DB800960AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B0E7718724DB800960AF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17B0E4C18724DB700960AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B0E6418724DB700960AF5 /* AppDelegate.m in Sources */,
+				E17B0E6018724DB700960AF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17B0E6718724DB800960AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B0E7918724DB800960AF5 /* OHHttpStubsFailureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E17B0E7118724DB800960AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17B0E4F18724DB700960AF5 /* OHHttpStubsFailure */;
+			targetProxy = E17B0E7018724DB800960AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E17B0E5C18724DB700960AF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17B0E5D18724DB700960AF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E17B0E7518724DB800960AF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17B0E7618724DB800960AF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17B0E7A18724DB800960AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E17B0E7B18724DB800960AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17B0E7D18724DB800960AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OHHttpStubsFailure/OHHttpStubsFailure-Prefix.pch";
+				INFOPLIST_FILE = "OHHttpStubsFailure/OHHttpStubsFailure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E17B0E7E18724DB800960AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OHHttpStubsFailure/OHHttpStubsFailure-Prefix.pch";
+				INFOPLIST_FILE = "OHHttpStubsFailure/OHHttpStubsFailure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E17B0E8018724DB800960AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OHHttpStubsFailure.app/OHHttpStubsFailure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OHHttpStubsFailure/OHHttpStubsFailure-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OHHttpStubsFailureTests/OHHttpStubsFailureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E17B0E8118724DB800960AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OHHttpStubsFailure.app/OHHttpStubsFailure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OHHttpStubsFailure/OHHttpStubsFailure-Prefix.pch";
+				INFOPLIST_FILE = "OHHttpStubsFailureTests/OHHttpStubsFailureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17B0E4B18724DB700960AF5 /* Build configuration list for PBXProject "OHHttpStubsFailure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17B0E7A18724DB800960AF5 /* Debug */,
+				E17B0E7B18724DB800960AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17B0E7C18724DB800960AF5 /* Build configuration list for PBXNativeTarget "OHHttpStubsFailure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17B0E7D18724DB800960AF5 /* Debug */,
+				E17B0E7E18724DB800960AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E17B0E7F18724DB800960AF5 /* Build configuration list for PBXNativeTarget "OHHttpStubsFailureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17B0E8018724DB800960AF5 /* Debug */,
+				E17B0E8118724DB800960AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17B0E4818724DB700960AF5 /* Project object */;
+}
