@@ -7,6 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+#define EXP_SHORTHAND
+#import "Expecta.h"
+#import <OHHTTPStubs/OHHTTPStubs.h>
+#import "Client.h"
 
 @interface OHHttpStubsFailureTests : XCTestCase
 
@@ -26,9 +30,28 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testThatOHHTTPStubsDoesNotStub // lol
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    Client *client = [Client sharedClient];
+    [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
+        return YES;
+    } withStubResponse:^OHHTTPStubsResponse *(NSURLRequest *request) {
+        return [OHHTTPStubsResponse responseWithFileAtPath:OHPathForFileInBundle(@"response.json", nil) statusCode:200 headers:@{@"Content-Type": @"application/json"}];
+    }];
+    
+    __block BOOL stubHit = NO;
+    
+    [client retrieveAnythingWithSuccess:^(id response) {
+        NSString *something = response[@"something"];
+        if([something isEqualToString:@"cool"]){
+            stubHit = YES;
+        }
+    } failure:^(NSError *error) {
+        stubHit = NO;
+    }];
+    
+    expect(stubHit).will.beTruthy();
 }
+
 
 @end
